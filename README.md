@@ -34,8 +34,8 @@ _Please visit the [Node.js website](https://nodejs.org/en/download/) for install
 _Clone this repository via Terminal using the following commands:_
 * _$ cd desktop_
 * _$ git clone {url to this repository}_
-* _$ cd SocialMediaClone_
-_Then, confirm that you have navigated to the SocialMediaClone project directory by entering "pwd" in Terminal._
+* _$ cd social-media-clone_
+_Then, confirm that you have navigated to the social-media-clone project directory by entering "pwd" in Terminal._
 
 _Next, install npm at the project's root directory via the following commands:_
 * _$ npm install_
