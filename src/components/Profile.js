@@ -6,9 +6,17 @@ import ProfileNavigationBar from './ProfileNavigationBar.js';
 function Profile(){
   return(
     <React.Fragment>
-      <ProfilePhoto />
-      <ProfileName />
-      <ProfileNavigationBar />
+      <div class="profile">
+        <div class="profile-photo">
+          <ProfilePhoto />
+        </div>
+        <div class="profile-name">
+          <ProfileName />
+        </div>
+      </div>
+      <div className="profile-nav">
+        <ProfileNavigationBar />
+      </div>
     </React.Fragment>
   );
 }

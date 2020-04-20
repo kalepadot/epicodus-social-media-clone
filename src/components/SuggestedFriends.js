@@ -20,9 +20,11 @@ function SuggestedFriends() {
   return(
     <React.Fragment>
       {suggestedFriendsList.map((friend, index) =>
-        <SuggestedFriendsOption photoUrl={friend.photoUrl}
-          name={friend.name}
-          key={index}/>
+        <div className="suggested-friend">
+          <SuggestedFriendsOption photoUrl={friend.photoUrl}
+            name={friend.name}
+            key={index}/>
+        </div>
       )}
     </React.Fragment>
   )

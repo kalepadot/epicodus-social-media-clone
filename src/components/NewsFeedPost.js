@@ -4,11 +4,14 @@ import PropTypes from "prop-types";
 function NewsFeedPost(props){
   return (
     <React.Fragment>
-      <img src = {props.photoUrl}></img>
-      <h3>{props.name}</h3>
-      <p>{props.postText}</p>
+      <div className="post-photo">
+        <img src = {props.photoUrl}></img>
+      </div>
+      <div className="post-text">
+        <h3>{props.name}</h3>
+        <p>{props.postText}</p>
+      </div>
     </React.Fragment>
-
   );
 }
 

@@ -4,9 +4,16 @@ import PropTypes from "prop-types";
 function SuggestedFriendsOption(props){
   return (
     <React.Fragment>
-      <img src= {props.photoUrl}></img>
-      <h3>{props.name}</h3>
-      <button type="button">Add Friend</button>
+      <div className="friend-photo">
+        <img src= {props.photoUrl}></img>
+      </div>
+      <div className="friend-name">
+        <h3>{props.name}</h3>
+      </div>
+      <div class="friend-button">
+        <button type="button">Add Friend</button>
+      </div>
+      <hr/>
     </React.Fragment> 
   );
 }

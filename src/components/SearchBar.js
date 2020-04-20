@@ -4,8 +4,7 @@ function SearchBar(){
   return(
     <form>
       <label>
-        Search
-        <input type="text" name="search" />
+        <input type="text" name="search" placeholder="Search" />
       </label>
       <input type="submit" value="Submit" />
     </form>

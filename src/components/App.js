@@ -9,11 +9,29 @@ import '../App.css';
 function App() {
   return (
     <React.Fragment>
-      <NavBar />
-      <Profile />
-      <About />
-      <NewsFeed />
-      <SuggestedFriends />
+      <div className="App">
+        <NavBar />
+        <div class="columns">
+          <div className="column1">
+            <div className="box">
+              <Profile />
+            </div>
+            <div className="box">
+              <About />
+            </div>
+          </div>
+          <div className="column2">
+            <div className="box">
+              <NewsFeed />
+            </div>
+          </div>
+          <div className="column3">
+            <div className="box">
+              <SuggestedFriends />
+            </div>
+          </div>
+        </div>
+      </div>
     </React.Fragment>
   );
 }

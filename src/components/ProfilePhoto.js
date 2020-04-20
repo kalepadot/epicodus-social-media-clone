@@ -2,7 +2,7 @@ import React from 'react';
 
 function ProfilePhoto(){
   return (
-    <img src="#" alt="profile photo"></img>
+    <img src="https://picsum.photos/200" alt="profile photo"></img>
   );
 }
 
