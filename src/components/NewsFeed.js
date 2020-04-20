@@ -27,7 +27,7 @@ function NewsFeed(){
       {masterPostList.map((post, index) =>
         <NewsFeedPost photoUrl={post.photoUrl}
           name={post.name}
-          postText={post.photoUrl}
+          postText={post.postText}
           key={index}/>
       )}
     </React.Fragment>

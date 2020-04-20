@@ -2,7 +2,9 @@ import React from 'react';
 import NavBar from './NavBar.js';
 import Profile from './Profile.js';
 import NewsFeed from './NewsFeed.js';
-import './App.css';
+import About from './About.js';
+import SuggestedFriends from './SuggestedFriends.js';
+import '../App.css';
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <Profile />
       <About />
       <NewsFeed />
+      <SuggestedFriends />
     </React.Fragment>
   );
 }
