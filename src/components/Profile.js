@@ -1,3 +1,4 @@
+import React from 'react';
 import ProfileName from './ProfileName.js';
 import ProfilePhoto from './ProfilePhoto.js';
 import ProfileNavigationBar from './ProfileNavigationBar.js';
