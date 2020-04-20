@@ -1,38 +1,142 @@
 .App {
   text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-bar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar button {
+  height: 3rem;
+  width: auto;
+  margin-right: 8px;
+  border-radius: 5px;
+}
+
+.search-bar {
+  display: inline-block;
+}
+
+.search-bar input {
+  height: 3rem;
+  width: auto;
+  box-shadow: none;
+  outline: none;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.column2 {
+  width: 40vw;
+}
+
+.column1, .column3 {
+  width: 30vw;
+}
+
+.box {
+  border: 1px solid #273f8b;
+  border-radius: 5px;
+  margin: 1vw;
+  padding: 2%;
+}
+
+.profile-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.profile-nav a {
+  color: #111111;
+  text-decoration: none;
+}
+
+.profile-photo img {
+  width: 100%;
+}
+
+.profile-name {
+  width: 70%;
+}
+
+.profile {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.suggested-friend {
+  margin-bottom: 2%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 50% 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.friend-photo {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.friend-photo img {
+  width: 100%;
+}
+
+.friend-name {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.friend-button {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.newsfeed-post {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 3%;
+  border-bottom: 1px solid #273f8b;
+  padding: 2%;
+}
+
+.newsfeed-post img {
+  width: 100%;
+}
+
+.submit-post {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+  background-color: #273f8b;
+  color: #f5f5f5;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+.post-label {
+  margin-right: 2%;
+}
+
+.post-label input {
+  border-radius: 5px;
+  height: 3rem;
+}
+
+.post-button {
+  margin-left: 2%;
+}
+
+.post-button input {
+  height: 3rem;
+  border-radius: 5px;
 }
