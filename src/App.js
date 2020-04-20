@@ -1,23 +1,17 @@
 import React from 'react';
+import NavBar from './NavBar.js';
+import Profile from './Profile.js';
+import NewsFeed from './NewsFeed.js';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <NavBar />
+      <Profile />
+      <About />
+      <NewsFeed />
+    </React.Fragment>
   );
 }
 
