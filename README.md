@@ -6,10 +6,10 @@
 
 ## Description
 
-This application...
+This application is a static social media website built using only React components.
 
 _Component structure:_
-![component structure](src/assets/images/componentStructure.png)
+![component structure](/diagram_2.png)
 
 ## Setup/Installation Requirements
 
