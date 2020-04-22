@@ -1,8 +1,7 @@
-# Social Media Clone
+# Social Media Clone  ***Forked from Drake for reference, thanks m8***
 
 #### Practice with React fundamentals, April 20, 2020
 
-#### _**Michelle Morin, Drake Wilcox, Alex Skreen**_
 
 ## Description
 
@@ -55,7 +54,5 @@ _Open the contents of the directory in a text editor or IDE of your choice (e.g.
 
 *This webpage is licensed under the MIT license.*
 
-Copyright (c) 2020 **_Michelle Morin, Drake Wilcox, Alex Skreen_**
+Copyright (c) 2020 **_**
 
-Co-authored-by: Michelle Morin <morin2m@gmail.com>
-Co-authored-by: Alex Skreen <skreenalex@gmail.com>
